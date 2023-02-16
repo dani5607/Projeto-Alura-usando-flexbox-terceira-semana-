@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(feliz.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  color:black;
+}
+
+header {
+  background-color: rgb(154, 227, 230);
+  display: flex;
+  flex-direction: center;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  font-size: 10px;
+  letter-spacing: 2.3px;
+ 
+}
+
+header .menu {
+  padding: 10px;
+}
+
+header .menu a {
+  text-decoration: none;
+  color:black;
+  font-size: 20px;
+  padding: 10px;
+}
+
+header .menu a:hover {
+  color: rgb(148, 206, 153);
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  padding: 80px;
+  margin: 0 auto;
+  
+}
+
+main .textos {
+  padding: 50px;
+  font-size: 35px;
+}
+
+main .cadastro {
+  background-color: aliceblue;
+  width: 20%;
+padding: 24px;
+height: 160px;
+border-radius: 8px;
+font-size: 20px;
+font-weight: inherit;
+text-rendering: optimizeLegibility;
+outline: 0px;
+appearance: none;
+text-size-adjust: 100%;
+}
+
+main .cadastro label {
+  display: flex;
+  font-size: 25px;
+  padding: 0px;
+  font-weight: inherit;
+  text-size-adjust: border-box;
+  appearance: none;
+  color: black;
+}
+  
+
+main .cadastro input {
+  background-color: transparent;
+  border-width: 0px 0px 1px;
+  border-top-style: initial;
+  border-right-style: initial;
+  border-left-style: initial;
+  border-top-color: initial;
+  border-right-color: initial;
+  border-left-color: initial;
+  border-image: initial;
+  border-radius: 0px;
+  box-sizing: border-box;
+  color: rgb(215, 41, 35);
+  caret-color: currentcolor;
+  display: block;
+  margin: 0px;
+  padding: 8px 24px 8px 0px;
+  text-align: left;
+  outline: none;
+  width: 100%;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(215, 41, 35);
+  --inputCurrentColor: #D72923;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+   }
+
+   main .cadastro button { 
+    color: rgb(207, 192, 192);
+    height: 3rem;
+    display: flex;
+    width: 100%;
+    margin-bottom: 1rem;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    cursor: pointer;
+    outline: 0px;
+    -webkit-box-align: center;
+    align-items: center;
+    vertical-align: middle;
+    overflow: hidden;
+    position: relative;
+    border: 0px;
+    transform: translate3d(0px, 0px, 0px);
+   }
